@@ -50,6 +50,8 @@ public class ExecutorGroupSum extends GroupSum{
             }
         }
 
+        executor.shutdown();
+
         return totalSum;
 
 
